@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+// css var
+$Soft-red: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$Dark-desaturated-cyan: hsl(167, 40%, 24%);
+$Dark-blue: hsl(198, 62%, 26%);
+$Dark-moderate-cyan:hsl(168, 34%, 41%);
+/* neutral */
+$Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$Very-dark-grayish-blue: hsl(213, 9%, 39%);
+$Dark-grayish-blue: hsl(232, 10%, 55%);
+$Grayish-blue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+/* - Font  */
+$barlow:'Barlow', sans-serif;
+$fraunces: 'Fraunces', serif;
+$font-size:18px;
+/* font-weights */
+$barlow-weight:600;
+$fraunces-weight:700;
+$fraunces-large-weight:900;
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+   min-height: 100vh;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      align-items: center;
+   
+    
+ 
+ }
+ 
+  
+  @import "./header";
+  @import "./nav-bar";
+  @import "./transform-section";
+  @import './testimonial';
+  @import './image-section';
+  @import './footer';

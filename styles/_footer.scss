@@ -1,0 +1,45 @@
+footer{
+    background-color: rgba(#77caba, .7);
+    
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-logo{
+  margin-top: 3rem;
+  margin-bottom:1.5rem;
+  width: 10rem;
+ 
+}
+
+.footer-links , .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    max-width: 375px;;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+   
+}
+.footer-links li , .social li{
+    list-style: none;
+    color:  #2C7566;
+    font-weight: $fraunces-weight;
+    opacity: 70%;
+    font-size: 1rem;
+}
+.footer-links{
+    gap: 1rem;
+}
+
+.footer-links li:hover {
+    color: $White;
+}

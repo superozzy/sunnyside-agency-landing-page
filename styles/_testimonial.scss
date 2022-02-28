@@ -1,0 +1,77 @@
+.testimonial{
+    background-color: $White;
+    // height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-testimonial{
+    font-family: $fraunces;
+    text-transform: uppercase;
+    font-size: $font-size;
+    font-weight: $fraunces-weight;
+    margin-top: 3rem;
+    color: $Grayish-blue;
+    letter-spacing: 0.2rem;
+}
+
+.ppl-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.ppl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.img-ppl{
+    border-radius: 50%;
+    width: 5rem;
+   
+}
+.info-ppl{
+    text-align: center;
+    padding: 2rem;
+    font-family: $barlow;
+    font-weight: $barlow-weight;
+    color: $Dark-grayish-blue;
+    
+}
+.name-ppl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: $Very-dark-desaturated-blue;
+    font-family: $fraunces;
+    position: relative;
+    bottom:1rem;
+
+}
+.name-ppl span{
+    margin-top: 0.5rem;
+    color: $Dark-grayish-blue;
+    font-family: $barlow;
+    font-weight: $barlow-weight;
+}
+@media only screen and (min-width:768px){
+    .header-testimonial{
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        letter-spacing: 0.3rem;
+    }
+    .ppl-box{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+   
+    
+}

@@ -1,0 +1,154 @@
+
+.menu-wrap{
+    padding: 0.5rem;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 1rem 3rem 1rem;
+}
+
+.main-menu{
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.menu{
+    display: none;
+   
+   
+}
+.active{
+    display: flex;
+    flex-direction: column;
+    background-color: $White;
+    // padding: 1.8rem;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    // display: none;
+    transition: all 0.5s ease-in-out;
+   
+}
+li{
+    list-style-type:  none;
+    margin: 1.5rem;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    color: $Dark-grayish-blue;
+    font-weight: $barlow-weight;
+    opacity:90%;
+    
+   
+}
+.logo-text{
+    margin-bottom: 10rem;
+    
+}
+
+.contact{
+    text-transform: uppercase;
+    background-color: $Yellow;
+    padding: 1rem 1.5rem;
+    border-radius:4rem;
+    border: none;
+    color:$Very-dark-desaturated-blue ;
+    font-family: $font-size;
+    font-weight: $fraunces-weight;
+    font-family: $fraunces;
+}
+
+.mobile-nav{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+@media only screen and (min-width:769px){
+    // desktop and tablets
+    .menu-wrap{
+      
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        position: relative;
+        bottom: 1rem;
+      
+    }
+ 
+  .active{
+      display: none;
+  }
+ 
+ .mobile-nav{
+     display: none;
+   
+ }
+ 
+    .menu{
+       background-color:transparent;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+       
+        font-size: 19px;
+        font-weight: $barlow-weight;
+        font-family: $barlow;
+        align-items: center;
+        padding: 0.5rem;
+         margin: 0 1rem 0 1rem;
+        
+        
+    }
+a{
+    color: $White;
+}
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .logo{
+    //    height: 100%;
+    padding: 1rem;
+       margin-bottom: 1.5rem;
+       width: 12rem
+    }
+    
+ .contact{
+     padding: 0.2rem;
+     background-color: $White;
+     border-radius:2rem;
+     border: none;
+     width: 8rem;
+     height:3.5rem ;
+     font-size: 0.8rem;
+     font-weight: $fraunces-weight;
+     text-transform: uppercase;
+     font-family: $fraunces;
+  
+ }
+//  section with text
+ .text{
+     font-size: 4rem;
+ }
+.logo-text{
+    margin-bottom:15rem;
+}
+.first-section{
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+}
